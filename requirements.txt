@@ -3,4 +3,5 @@ pydantic
 uvicorn
 numpy
 pandas
+fastapi
 joblib
