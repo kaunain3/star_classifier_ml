@@ -4,6 +4,14 @@ import joblib
 import pandas as pd
 
 app = FastAPI()
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 scaler = joblib.load("scaler.pkl")
 model = joblib.load("svm.pkl")
 
