@@ -1,6 +1,6 @@
 # Star Classifier
 
-"Note: hosted on Render free tier — first request after inactivity may take ~30 seconds to wake up."
+"Note: hosted on Render, first request after inactivity may take ~30 seconds to wake up."
 
 A machine learning API that classifies stars into one of 6 types based on their physical properties, using a Support Vector Machine (SVM) trained on astronomical data.
 
